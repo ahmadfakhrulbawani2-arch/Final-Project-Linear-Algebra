@@ -1,4 +1,4 @@
-# file from detKofaktor.py
+# file dari detKofaktor.py
 import numpy as np
 
 def calcDet(A):
@@ -33,7 +33,6 @@ def minor(matrix, row, col):
     return m
 
 
-
 def showStep(matrix):
     n = len(matrix)
     c = len(matrix[0])
@@ -43,9 +42,9 @@ def showStep(matrix):
     printMatrix(matrix)
 
     if n == c:
-        print(f"Cofactor expansion for matrix A {n}x{n}:\n")
+        print(f"Ekspansi kofaktor untuk matriks A {n}x{n}:\n")
 
-        print("Expansion of the first row (row 0):\n")
+        print("Ekspansi baris pertama (baris 0):\n")
 
         terms = []
         det = 0
@@ -54,11 +53,11 @@ def showStep(matrix):
             sign = pow(-1, (0 + j))
             a = matrix[0][j]
 
-            print(f"Element of A[0][{j}] = {a}")
-            if(sign > 0):
-                print("Sign: positive")
+            print(f"Elemen A[0][{j}] = {a}")
+            if sign > 0:
+                print("Tanda: positif")
             else:
-                print("Sign = negative")
+                print("Tanda: negatif")
 
             # Minor
             M = minor(matrix, 0, j)
@@ -72,12 +71,12 @@ def showStep(matrix):
         print("Ekspansi lengkap determinan:\n")
         print("det(A) = " + " + ".join(terms))
         print()
-        print(f"Determinant of A = {det:.2f}")
+        print(f"Determinannya = {det:.2f}")
         print()
     else:
-        print(f"So sorry, there's no valid determinant of A {n} x {c}")
-        print("Please input determinant with order of n x n")
-        print()
+        print(f"Maaf, determinan tidak berlaku untuk matriks {n} x {c}")
+        print("Silakan masukkan matriks persegi (n x n) untuk menghitung determinan.\n")
+
 
 A1 = [
     [2, 1, -1, 8],
@@ -103,13 +102,12 @@ C = [
     [5, 3]
 ]
 
-# undefine determinant handling
-
+# Matriks tidak persegi
 D = [
     [1, 3, 2],
     [4, 6, 5]
 ]
 
-print("\n=== Determinant with Gauss-Jordan ERO ===\n")
+print("\n=== Determinan dengan Ekspansi Kofaktor ===\n")
 showStep(A)
 # showStep(B)
