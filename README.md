@@ -1,12 +1,13 @@
 # Linear Algebra Final Project?
 <div style="display: flex; flex-wrap: wrap; gap: 8px;">
 
-  <img src="https://img.shields.io/github/repo-size/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/stars/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=yellow">
-  <img src="https://img.shields.io/github/forks/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=purple">
+<img src="https://img.shields.io/github/repo-size/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=orange">
+<img src="https://img.shields.io/github/stars/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=yellow">
+<img src="https://img.shields.io/github/forks/ahmadfakhrulbawani2-arch/CodeForces-All-Problems?style=for-the-badge&color=purple">
 
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/NumPy-013243?logo=NumPy&logoColor=white&style=for-the-badge">
 
 </div>
 
@@ -21,7 +22,7 @@ Math theory used is: </br>
 3. Inverse of a matrix using Gauss-Jordan and ERO.
 4. Basic Minor and Cofactor of a matrix. </br>
 
-All of this program was created using Python3 v3.12.0 and accumulated into a single Jupyter Notebook file.
+All of this program was created using Python3 v3.12.0 and accumulated into a single Jupyter Notebook file. Also not forget about NumPy as my beloved library
 
 ## Repository Structure
 ```txt
