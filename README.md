@@ -35,7 +35,7 @@ All of this program was created using Python3 v3.12.0 and accumulated into a sin
 |   |
 |   |-- obeSpl.py
 |   |
-|   |-- obeInvers.pyV
+|   |-- obeInvers.py
 |
 |-- all-in-one.ipynb
 |
@@ -84,5 +84,6 @@ for example. The result should be similar to Jupyter Notebook.
 <p align="right">
   <img src="https://img.shields.io/github/last-commit/ahmadfakhrulbawani2-arch/Final-Project-Linear-Algebra-Matrix-1?style=for-the-badge&color=brightgreen" alt="Last Commit">
 </p>
+
 
 
