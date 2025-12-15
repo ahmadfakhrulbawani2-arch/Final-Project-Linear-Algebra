@@ -151,17 +151,21 @@ def jarakVector(vectors):
 
             maxLen = max(len(U), len(V))
             kalkulasi = []
-            jarak = 0;
+            jarak = 0.0
 
             for n in range(maxLen):
                 Un = U[n] if n < len(U) else 0
                 Vn = V[n] if n < len(V) else 0
                 jarak += pow(Un - Vn, 2)
-                kalkulasi.append(f"({Un} - {Vn})^2")
+                kalkulasi.append(f"({Un:.2f} - {Vn:.2f})^2")
 
             jarak = np.sqrt(jarak)
             print(f"    Jarak V{i+1} ke V{j+1} = sqrt[" + " + ".join(kalkulasi) + "]")
             print(f"    Jarak akhir = {jarak:.2f}\n")
+
+            # Warning message jika ukuran berbeda
+            if len(U) != len(V):
+                print(f"    Perhatian: ukuran vektor berbeda, elemen yang tidak ada dianggap 0.\n")
 
 # main driver-------------------------
 # pilih operasi

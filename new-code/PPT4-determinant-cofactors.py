@@ -53,7 +53,7 @@ def showStep(matrix):
         for j in range (row):
             tanda = pow(-1, j)
             elemen = matrix[0][j]
-            print(f"Elemen ke-{j+1}: {elemen}")
+            print(f"Elemen ke-{j+1}: {elemen:.2f}")
             if tanda > 0: 
                 print("Tanda: Positif")
             else:
@@ -65,7 +65,7 @@ def showStep(matrix):
             print(f"Determinan minornya: {hitungDet(minor):.2f}")
             print()
 
-            kalkulasi.append(f"{tanda} * {elemen} * det(Minor[0][{j}])")
+            kalkulasi.append(f"{tanda:.2f} * {elemen:.2f} * det(Minor[0][{j}])")
             det += tanda * elemen * hitungDet(minor)
 
         print("Hasil perhitungan lengkap determinannya:")

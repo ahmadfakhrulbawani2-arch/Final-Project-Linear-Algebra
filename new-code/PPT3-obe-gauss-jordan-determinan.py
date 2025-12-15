@@ -78,7 +78,7 @@ def showStepGaussDeterminant(matrix):
         elemenDiagonal = []
 
         for i in range(row):
-            elemenDiagonal.append(f"({M[i][i]})")
+            elemenDiagonal.append(f"({M[i][i]:.2f})")
             det *= M[i][i]
 
         tandaSwap = pow(-1, swap)
