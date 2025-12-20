@@ -365,9 +365,7 @@ def proyOrthogonal(Vec):
         
         print()
 
-# main driver
-if __name__ == "__main__":
-    
+def main():
     opsi = 8
 
     P1 = [2, 4, -1]
@@ -419,3 +417,7 @@ if __name__ == "__main__":
             dilatasi(V, MULTIPLY)
         case 8:
             proyOrthogonal(V)   # menerima matriks ukuran 2 <= len(V) <= 3
+
+# main driver
+if __name__ == "__main__":
+    main()
